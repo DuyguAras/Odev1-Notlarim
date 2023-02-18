@@ -54,7 +54,7 @@ public class CharacterController : MonoBehaviour
         jumping = false;
      }
    }
-
+   //bu ilk commit değişikliği
    private void OnCollisionEnter2D(Collision2D other) 
    {
       if (other.gameObject.CompareTag("Ground"))
